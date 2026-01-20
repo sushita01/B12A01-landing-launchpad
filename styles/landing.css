@@ -1,0 +1,139 @@
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+
+/* header */
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 698px; 
+     
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.nav-title{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.banner-content{
+    margin-bottom: 152px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 37px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;/* center  */
+}
+main section{
+     margin-top: 116px;
+     margin-bottom: 116px;
+}
+/* action styles */
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 216px;
+}
+.action-left{
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.action-sub{
+    font-size: 24px;
+    margin-bottom: 23px;
+    color: #69696cb7;
+}
+.action-right img{
+    border-radius: 48px;
+    width: 403px;
+    height: auto;
+}
+/* user styles */
+.user{
+    background-color: #E6E5FF;
+    border-radius: 24px;
+    padding: 50px 80px;
+    text-align: center;
+    max-width: 1150px;
+    margin: 141px auto;
+
+}
+.user-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 50px;
+    /* margin-bottom: 40px; */
+}
+.user-subs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 48px;
+    margin-bottom: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 158px; */
+}
+.user-sub{
+    text-align: center;
+}
+.user-num{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 80px;
+    margin-bottom: 1px;
+}
+.user-label{
+    color: #69696cb7;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
