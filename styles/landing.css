@@ -19,7 +19,10 @@
     padding: 12px 36px;
     border-radius: 10px;
 }
-
+/* body */
+body{
+    background-color: #F6F9FF;
+}
 /* header */
 header{
     background-image: url('../Assets/Hero-bg.png');
@@ -136,4 +139,59 @@ main section{
     color: #69696cb7;
     font-size: 20px;
     margin-bottom: 50px;
+}
+
+.touch{
+    /* padding: 130px 230px;
+    display: flex;
+    gap: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 115px;
+}
+.touch-column{
+    width: 100%;
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.touch-label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.touch-column input[type="text"], .touch-column input[type="email"] {
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 2px 30px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #dddd;
+}
+.touch-column textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #dddd;
+}
+.touch-btn-primary{
+    height: 64px;
+    width: 100%;
+    display: block;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 20px 100px;
+    border-radius: 10px;
 }
