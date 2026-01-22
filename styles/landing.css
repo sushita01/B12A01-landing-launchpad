@@ -64,8 +64,8 @@ nav{
 }
 /* main styles */
 main{
-    max-width: 1140px;
-    margin: 0 auto;/* center  */
+    max-width: 1150px;
+    margin: 0 auto;
 }
 main section{
      margin-top: 116px;
@@ -140,17 +140,18 @@ main section{
     font-size: 20px;
     margin-bottom: 50px;
 }
-
+/* Let’s Get In Touch styles */
 .touch{
-    /* padding: 130px 230px;
-    display: flex;
-    gap: 100px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 115px;
+    gap: 115px; 
 }
 .touch-column{
+    width: 100%;
+    height: auto;
+}
+.touch-column form{
     width: 100%;
 }
 .touch-title{
@@ -173,7 +174,7 @@ main section{
     border: 1px solid #dddd;
 }
 .touch-column textarea{
-    height: 64px;
+    height: 135px;
     border-radius: 10px;
     background-color: white;
     display: block;
@@ -184,7 +185,9 @@ main section{
     border: 1px solid #dddd;
 }
 .touch-btn-primary{
-    height: 64px;
+    height: 62px;
+    /* line-height: 64px;
+    padding: 0 30px; */
     width: 100%;
     display: block;
     background-color: #4E47FF;
@@ -192,6 +195,44 @@ main section{
     font-size: 16px;
     color: white;
     border: none;
-    padding: 20px 100px;
+    /* padding: 20px 100px; */
     border-radius: 10px;
+    /* border: 1px solid transparent; */
 }
+.touch-column input,
+.touch-column textarea,
+.touch-btn-primary {
+  box-sizing: border-box;
+}
+/* footer styles */
+.footer-sec{
+    padding: 104px 455px 103px;
+    gap: 30px;
+    background-color: white;
+    text-align: center;
+}
+.footer-title{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.footer-description{
+    font-size: 18px;
+    color: #8987A1;
+    margin-bottom: 20px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around; 
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.item-title{
+    font-size: 18px;
+    color: #8987A1;
+     gap: 48px;
+     text-decoration: none;
+}
+
