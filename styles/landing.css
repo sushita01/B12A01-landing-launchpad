@@ -140,6 +140,66 @@ main section{
     font-size: 20px;
     margin-bottom: 50px;
 }
+/* feedback styles */
+.feedback {
+  text-align: center;
+}
+.feedback-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.feedback-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.feedback-card {
+  background-color: white;
+  border-radius: 14px;
+  padding: 24px;
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 0 0 1px #eef0ff;
+}
+.feedback-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.feedback-text {
+  font-size: 15px;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.reviewer-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #757575;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.review-date {
+  font-size: 14px;
+  color: #9a9aa3;
+  margin: 0;
+  font-weight: 500;
+}
+
+
 /* Let’s Get In Touch styles */
 .touch{
     display: flex;
