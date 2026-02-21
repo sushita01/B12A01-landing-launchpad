@@ -284,8 +284,6 @@ main section{
 }
 .touch-btn-primary{
     height: 62px;
-    /* line-height: 64px;
-    padding: 0 30px; */
     width: 100%;
     display: block;
     background-color: #4E47FF;
@@ -293,9 +291,7 @@ main section{
     font-size: 16px;
     color: white;
     border: none;
-    /* padding: 20px 100px; */
     border-radius: 10px;
-    /* border: 1px solid transparent; */
 }
 .touch-btn-primary:hover {
   background: goldenrod;
